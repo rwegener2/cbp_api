@@ -1,0 +1,2 @@
+class CPBException(Exception):
+    pass
