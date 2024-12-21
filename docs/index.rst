@@ -19,6 +19,8 @@ Resources:
    :maxdepth: 2
    :caption: Contents:
 
+   quickstart
+   test_notebook
 
 
 Indices and tables

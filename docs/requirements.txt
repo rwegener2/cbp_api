@@ -1,2 +1,3 @@
-piccolo_theme
 sphinx
+piccolo_theme
+myst-nb

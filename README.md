@@ -7,3 +7,11 @@ The Chesapeake Bay Program (CBP) maintains a wide variety of data monitoring sta
 Resources:
 - [CBP Datahub](https://datahub.chesapeakebay.net/Home)
 - [CBP API docs](https://datahub.chesapeakebay.net/API)
+
+Readthedocs
+
+Sphinx
+https://www.sphinx-doc.org/en/master/usage/quickstart.html#running-the-build
+
+`make html` from the docs folder
+`python -m http.server --directory /_build/html/` to serve
