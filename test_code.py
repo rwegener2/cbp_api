@@ -24,7 +24,7 @@ api = WaterQualityApi()
 
 # out = api.get_measurements(geog_id = '4', start_date='11-24-2022', program='all', data_variables= 'ZN')
 
-out = api.get_measurements(geog_id = [4, 6, 8], start_date='11-24-2022', program='all')
+out = api.get_measurements(geog_id = '02050103', start_date='11-24-2022', program='all')
 
 out = api.get_measurements(geog_id = 'all', start_date='11-24-2022', program='all')
 

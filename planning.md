@@ -48,3 +48,9 @@ CBPBasin -
 *Monitoring Station
 
 * = apparently you can only filter WaterQuality calls by these geographic attributes :/
+
+### Post Github push (!!!)
+Priorities:
+- basic cleaning (45 min max)
+- mvp docs -- maybe try out readthedocs? seems pretty user-friendly --> very simple mvp made! Next step here is to start adding content
+- mvp tests - try reading https://realpython.com/python-mock-library/ 
