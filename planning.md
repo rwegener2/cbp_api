@@ -54,3 +54,6 @@ Priorities:
 - basic cleaning (45 min max)
 - mvp docs -- maybe try out readthedocs? seems pretty user-friendly --> very simple mvp made! Next step here is to start adding content
 - mvp tests - try reading https://realpython.com/python-mock-library/ 
+
+What do I think I need in order to make the first "version" (ex. 0.0.1) and create a conda installation?
+-> get_measurements -- all parameters working and tested

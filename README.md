@@ -15,3 +15,15 @@ https://www.sphinx-doc.org/en/master/usage/quickstart.html#running-the-build
 
 `make html` from the docs folder
 `python -m http.server --directory /_build/html/` to serve
+
+Building
+https://setuptools.pypa.io/en/latest/userguide/quickstart.html#
+`python -m build` --> uses `pyproject.toml`
+
+References
+
+HUC8 data from: https://www.hydroshare.org/resource/b832a6c2f96541808444ec9562c5247e/
+
+Testing
+
+`pytest .` from the root folder

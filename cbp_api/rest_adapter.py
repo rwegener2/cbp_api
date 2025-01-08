@@ -21,8 +21,9 @@ class RestAdapter:
         headers = {}
         try:
             response = requests.get(url=full_url, verify=self._ssl_verify, headers=headers)
+            response.raise_for_status()
         except requests.exceptions.RequestException as e:
-            raise CPBException("Request failed") from e
+            raise CPBException("Request failed. Endpoint url:", full_url) from e
         data_out = response.json()
         # If status_code in 200-299 range, return success Result with data, otherwise raise exception
         is_success = 299 >= response.status_code >= 200     # 200 to 299 is OK
